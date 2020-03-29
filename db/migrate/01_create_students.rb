@@ -5,5 +5,5 @@ class CreateStudents < ActiveRecord::Migration[5.1]
     id INTEGER PRIMARY KEY,
     name TEXT
     SQL
-    ActiveRecord::Base [:conn].execute(sql)
+    ActiveRecord::Base.connection.execute(sql)
 end
