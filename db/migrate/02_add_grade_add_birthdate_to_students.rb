@@ -1,1 +1,1 @@
-class AddGradeAndBirthdateToStudents
+class AddGradeAndBirthdateToStudents < Active
