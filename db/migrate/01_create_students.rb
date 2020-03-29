@@ -1,5 +1,5 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
   def change
     sql <<-SQL
-    IF NOT EXISTS CREATE
+    CREATE TABLE IF NOT EXISTS 
 end
